@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.left-side{
+
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    }
+    .right-side{
+
+        width: 70%;
+        height: 100%;
+        background-color: #e7f0fa;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .tool{
+            width: 100%;
+            height: 6%;
+            background-color: white;
+        }

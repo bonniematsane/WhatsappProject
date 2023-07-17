@@ -1,0 +1,24 @@
+img{
+    border-radius: 48px;
+    height: 45px;
+    width: 45px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.profile{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+}
+h4{
+    color: black;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+p{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
