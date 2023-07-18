@@ -13,7 +13,7 @@ import { MessageComponent } from './message/message.component';
 import { MainComponent } from './main/main.component';
 import { ProfilepicComponent } from './profilepic/profilepic.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import { IconsComponent } from './icons/icons.component';
+
 import { TypeComponent } from './type/type.component';
 
 @NgModule({
@@ -29,12 +29,13 @@ import { TypeComponent } from './type/type.component';
     MainComponent,
     ProfilepicComponent,
     ToolbarComponent,
-    IconsComponent,
     TypeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

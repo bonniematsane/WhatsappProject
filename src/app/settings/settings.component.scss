@@ -1,14 +1,17 @@
 .settings{
-    height: 15%;
+    height: 22%;
     width: 100%;
-    background-color: #00A88E
+    background-color: #00A88E;
+    margin-bottom: 15px;
+    
+    
 }
 button, .Bnt1 .Bnt2 .Bnt3{
     width: 20px;
     height: 20px;
     border-radius: 50px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top: 17px;
+    margin-left: 8px;
     border: none;
     
 }
@@ -25,13 +28,22 @@ button, .Bnt1{
 .image{
     width: 10px;
     height: 25px;
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     gap: 95%;
+    margin-left: 18px;
+   
+   
 }
 p{
    color: white;
  
 }
+
+h4{
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
 
