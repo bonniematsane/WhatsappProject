@@ -1,45 +1,12 @@
-<div class="left-bar1"><br>
-    <div class="pic1">
-
-        <img src="../../assets/notti.png"><p>Notifications</p>
-       
-    </div> <hr><br>
-
-    <div class="pic1">
-       
-        <img src="../../assets/sec.png"> <p>Security</p>
-    </div><hr><br>
-
-    <div class="pic1">
-
-        <img src="../../assets/theme.png"><p>Theme</p>
-    </div><hr><br>
-
-    <div class="pic1">
-
-        <img src="../../assets/chat.png"><p>Chatwallpaper</p>
-    </div><hr><br>
-    <div class="pic1">
-
-        <img src="../../assets/blocked.jpg"><p>Blocked</p>
-        
-    </div><hr><br>
-    <div class="pic1">
-
-        <img src="../../assets/desktop.jpg"><p>Desktop settings</p>
-        
-    </div><hr><br>
-    <div class="pic1">
-
-        <img src="../../assets/keyb.png"><p>KeyboardShortcuts</p>
-        
-    </div><hr><br>
-    <div class="pic1">
-
-        <img src="../../assets/help.png"><p>Help</p>
-        
-    </div>
+<div class="left-bar1">
+    <ng-container *ngFor="let item of items; let last = last">
+      <div class="pic1">
+        <img [src]="item.image" />
+        <p>{{ item.title }}</p>
+      </div>
+      <hr *ngIf="!last" />
+      <br *ngIf="!last" />
+    </ng-container>
+  </div>
+  
     
-        
-</div>
-
